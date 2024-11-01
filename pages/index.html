@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css">
+    <title>YouQuiz</title>
+</head>
+<body class=" bg-[#325b5f]  h-[100vh] flex items-center justify-center">
+  <div class="container h-[550px]  w-[80%] bg-slate-50 rounded-lg px-[15px] flex flex-col">
+    <h1 class="h-[50px] text-center">Faire aux Question (FAQ)</h1>
+    <hr>
+    <div class="mt-4">
+      <div class="flex justify-between">
+
+        <h2 class="n-uestion">Nombre de question: 0</h2>
+        <button type="button" class="text-white ajouter-question bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Ajouter question</button>
+
+      </div>
+
+      <div class="acordian-question">
+        
+    </div>
+  </div>
+  <div style="display: none;" class="addQuestion-form w-[50%] absolute top-[12%] px-[50px] py-[30px] right-[25%] bg-slate-400 rounded-md  ">
+    <h2>Add other questions</h2>
+      <form class="flex flex-col">
+        <label >question</label>
+        <input class="input-question mt-3" type="text">
+        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Answer</label>
+        <textarea id="message" rows="4" class="input-reponse block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 " placeholder="Write your thoughts here..."></textarea>
+
+        <button  class="add-btn-question-form px-[20px] py-1 bg-[#3be191]  rounded-[18px] text-white mt-4 ">Add</button>
+        <button class="cancel px-[20px] py-1 bg-[#7c7c7c]  rounded-[18px] text-white mt-4 ">cancel</button>
+      </form>
+</div>
+
+  <script src="../script.js"></script>
+</body>
+</html>
+
+ 
+</div> 
